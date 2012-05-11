@@ -1,0 +1,49 @@
+Euclidean Traveling Salesman
+jpp30@pitt.edu
+2 April 2012
+
+
+INTRODUCTION
+
+This project implements the MST-walk algorithm described in class to approximately solve the Euclidean Traveling Salesman Problem.
+
+The project implements the following methods:
+
+Prim's Algorithm - to find a minimum spanning tree
+MST-Walk Algorithm - to find a tour of the MST
+
+The project also includes a top-level test file that makes it easy to run experiments on random sets of cities in the plane, allows the user to control the number of cities, computes the minimum spanning tree and displays its weight, finds its treewalk-tour and displays its length, and displays them in a graphics window. 
+
+
+FILES
+
+The following files should be present:
+
+	EuclideanTSP.java - EuclideanTSP class, to find TSP Tour using Prim's and MST-Walk
+	City.java - City class
+	Edge.java - Edge class
+	Map.java - Map class, to display map
+     	DemonstrateEuclideanTSP.java - Test file for EuclideanTSP
+
+USAGE
+
+Compile in Java 2 SDK 1.6 with:
+
+     javac DemonstrateEuclideanTSP.java 
+
+Run with:
+
+     java DemonstrateEuclideanTSP NUMBER_OF_CITIES
+
+     where NUMBER_OF_CITIES is the number of cities you want to generate a tour for.
+
+     for example, to find a tour for 100 random cities run with:
+
+     java DemonstrateEuclideanTSP 100
+
+
+KNOWN PROBLEMS
+
+None.
+
+
